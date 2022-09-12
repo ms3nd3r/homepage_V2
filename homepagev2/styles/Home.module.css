@@ -1,0 +1,92 @@
+.header{
+  background-image:url(/img/background.jpg);
+  font-size: 150%;
+}
+
+.title{
+  color: red;
+  font-size: 200%;
+  text-align:center;
+}
+
+.main {
+  background-image:url(/img/background.jpg);
+  color: #000000;
+}
+
+.enter{
+  background-color: bisque;
+  padding: 10px;
+  margin: 60px;
+  text-align: center;
+}
+
+.enter h3{
+  font-size: 300%;
+}
+
+.container{
+  text-align:center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.enterLink{
+  color: #fff;
+  font-weight: bold;
+  line-height: 750%;
+  background-color: #056d37a7;
+  margin: 8% 4%;
+  width: 71%;
+  height: 71%;
+  text-align: center;
+}
+
+.counter{
+  background-color: bisque;
+  text-align:center;
+  padding: 10px;
+  margin: 60px;
+}
+
+.profile{    
+  background-color: bisque;
+  padding: 20px;
+  margin: 100px 100px 20px 100px;
+  text-align:left;
+}
+
+.profile h1{
+  border-bottom:solid 5px #ffba26;
+}
+
+.link{
+  background-color: aquamarine;
+  margin: 100px;
+  padding: 20px;
+}
+
+.update{
+  background-color: #f0e68c;
+  padding: 5%;
+  margin: 60px;
+  line-height: 200%;
+  text-align:left;
+}
+
+.update h3{
+  text-align:center;
+  font-size: large;
+}
+
+.linkList li a{
+  color: blue;
+}
+
+.footer{
+  background-color: #e0ffff;
+  padding: 10px 10px 30px 10px;
+  margin-top: 60px;
+  text-align:center;
+}
