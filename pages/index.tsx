@@ -8,7 +8,7 @@ const Home: NextPage = () => {
    <article className={styles.main}>
       <header className={styles.header}>　　　　　</header>
       <div className={styles.title}>
-        <h1>☆☆☆Welcome to ms3nd3r's page!!☆☆☆</h1>
+        <h1>☆☆☆Welcome to ms3nd3r page!!☆☆☆</h1>
       </div>
       <div className={styles.counter}>
         <h2>
