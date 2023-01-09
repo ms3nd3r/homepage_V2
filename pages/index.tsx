@@ -33,6 +33,7 @@ const Home: NextPage = () => {
       <div className={styles.update}>
           <h3>UPDATE NOTE</h3>    
           <p>
+              Version:2.0.1 2023/01/09 新年にあたってプロフィールを更新<br />
               Version:2.0.0 2022/09/12 ページをnext.js仕様にリニューアル →　今後レイアウトも全変更予定。<br />
               Version:1.0.2 2021/08/01 アクセスカウンタ微調整<br />
               Version:1.0.1 2021/03/29 新年度にあたってプロフィールを更新<br />

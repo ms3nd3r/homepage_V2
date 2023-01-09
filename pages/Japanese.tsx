@@ -22,15 +22,17 @@ const Home: NextPage = () => {
                     <li>経験</li>
                       <ul>
                           <li>HTML/CSS</li>
-                          <li>Ruby</li>
                           <li>PHP</li>
                           <li>JavaScript</li>
+                          <li>SQL</li>
                       </ul>
                     <li>学習中</li>
                         <ul>
                           <li>TypeScript</li>
                           <li>React</li>
                           <li>Next.js</li>
+                          <li>Ruby</li>
+                          <li>Laravel</li>
                         </ul>
                   </ul>
                 <li>[ソフトウェア開発/スクレイピング/競技プログラミング]</li>
@@ -53,6 +55,7 @@ const Home: NextPage = () => {
               <li>情報処理検定三級</li>
               <li>ビジネス文書実務検定三級</li>
               <li>謎解き能力検定四級</li>
+              <li>普通自動車運転免許</li>
           </ul>
         </div>
         <div className={styles.link}>
