@@ -1,16 +1,17 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+
 //上のstylesを書くとcss適用
 
 const Home: NextPage = () => {
   return (
    <article className={styles.main}>
-      <header className={styles.Header}>　　　　　</header>
-      <div >
+      <header className={styles.header}>　　　　　</header>
+      <div className={styles.title}>
         <h1>☆☆☆Welcome to ms3nd3r page!!☆☆☆</h1>
       </div>
-      <div>
+      <div className={styles.counter}>
         <h2>
           あなたは
             {/* <table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><a href="http://www.rays-counter.com/"><img src="http://www.rays-counter.com/d490_f6_022/6105e8800adb3/" alt="アクセスカウンター"></a></td></tr><tr /><td align="center"><img src="http://www.rays-counter.com/images/counter_01.gif" border="0"><img src="http://www.rays-counter.com/images/counter_02.gif" border="0"><img src="http://www.rays-counter.com/images/counter_03.gif" border="0"><img src="http://www.rays-counter.com/images/counter_04.gif" border="0" ><img src="http://www.rays-counter.com/images/counter_05.gif" border="0"></td></tr></table>人目の訪問者です！ */}
@@ -18,19 +19,19 @@ const Home: NextPage = () => {
           <br />人目の訪問者です！
         </h2> 
       </div>
-      <div >
+      <div className={styles.enter}>
         <h3>Enter</h3>
-          <div >
+          <div className={styles.container}>
             <Link href="/Japanese">
-              <a >About Me</a>
+              <a className={styles.enterLink}>About Me</a>
             </Link> 
             <Link  href="https://ms3nd3r.github.io/creation/">
-              <a >創作ページ</a>
+              <a className={styles.enterLink}>創作ページ</a>
             </Link>
           </div>
         <p><strong>鋭意更新中！！</strong></p>
       </div>
-      <div >
+      <div className={styles.update}>
           <h3>UPDATE NOTE</h3>    
           <p>
               Version:2.0.2 2023/05/22 プロフィールを更新,リファクタリング開始<br />
@@ -48,7 +49,7 @@ const Home: NextPage = () => {
               Version:0.0.1 2020/07/13 indexファイル,CSSファイルを作成
           </p>
       </div>
-      <footer >
+      <footer className={styles.footer}>
           <p> 一昔前感を出したかった。反省はしていない。</p>
       </footer>
     </article>  
