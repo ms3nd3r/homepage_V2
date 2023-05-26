@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/oldpage.module.css'
 //上のstylesを書くとcss適用
 
 const Home: NextPage = () => {
@@ -61,23 +61,23 @@ const Home: NextPage = () => {
         <div className={styles.link}>
             <h2>リンク</h2>
             <ul className={styles.linkList}>
-              <Link href="href=https://twitter.com/ms3nd3r">
-                <li><a >Twitter</a>[亀更新]</li>
+              <Link href="href=https://twitter.com/ms3nd3r" legacyBehavior>
+                <li>Twitter[亀更新]</li>
               </Link>
-              <Link href="https://github.com/ms3nd3r">
-                <li><a >github</a>[わりとそこそこ更新]</li>
+              <Link href="https://github.com/ms3nd3r" legacyBehavior>
+                <li>github[わりとそこそこ更新]</li>
               </Link>
-              <Link href="https://ms3nd3r.hatenablog.com/">  
-                <li><a >はてなブログ</a>[不定期]</li>
+              <Link href="https://ms3nd3r.hatenablog.com/" legacyBehavior>  
+                <li>はてなブログ[不定期]</li>
               </Link>
-              <Link href="https://atcoder.jp/users/ms3nd3r">
-                <li><a >AtCoder</a>[モチベーションの向くままに]</li>
+              <Link href="https://atcoder.jp/users/ms3nd3r" legacyBehavior>
+                <li>AtCoder[モチベーションの向くままに]</li>
               </Link>
             </ul>
         </div>
         <footer className={styles.footer}>
           <Link href="/">
-            <a>戻る</a>
+            戻る
           </Link>
         </footer>
     </article>  

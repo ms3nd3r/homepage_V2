@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-// import styles from '../styles/Home.module.css'
+// import styles from '../styles/oldpage.module.css'
 
 const Home: NextPage = () => {
   return (
     <div>
         <div>ページ遷移テストは成功です</div>
-        <Link href="/">
-            <a>戻る</a>
+        <Link href="/" legacyBehavior>
+            戻る
         </Link>
     </div>  
   )

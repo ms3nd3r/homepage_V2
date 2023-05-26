@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-//import styles from '../styles/Home.module.css'
+//import styles from '../styles/oldpage.module.css'
 //上のstylesを書くとcss適用
 
 const Home: NextPage = () => {
@@ -8,8 +8,8 @@ const Home: NextPage = () => {
     <div>
       {/* 最初のページ,ホームページの内容をどんどん記載してください */}
       <div>ここにホームページ</div>
-      <Link  href="/test">
-        <a>ページ遷移テスト</a>
+      <Link  href="/test" legacyBehavior>
+        ページ遷移テスト
         {/* リンク系の要素はこんな凡例で,importも忘れずに */}
       </Link>
     </div>  

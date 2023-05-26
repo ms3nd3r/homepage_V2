@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/oldpage.module.css'
 
 //上のstylesを書くとcss適用
 
@@ -22,12 +22,16 @@ const Home: NextPage = () => {
       <div className={styles.enter}>
         <h3>Enter</h3>
           <div className={styles.container}>
-            <Link href="/Japanese">
-              <a className={styles.enterLink}>About Me</a>
-            </Link> 
-            <Link  href="https://ms3nd3r.github.io/creation/">
-              <a className={styles.enterLink}>創作ページ</a>
-            </Link>
+            <div className={styles.enterLink}>
+              <Link href="/oldpage/Japanese" legacyBehavior>
+                About Me
+              </Link> 
+            </div>
+            <div className={styles.enterLink}>
+              <Link href="https://ms3nd3r.github.io/creation/" legacyBehavior>
+                創作ページ
+              </Link>
+            </div>
           </div>
         <p><strong>鋭意更新中！！</strong></p>
       </div>
@@ -42,7 +46,7 @@ const Home: NextPage = () => {
               Version:1.0.0 2020/11/17 全ページの体裁が整ったのでいったん完成版として公開。<br />
               Version:0.3.0 2020/11/14 自己紹介・英語版ページ完成<br />
               Version:0.2.0 2020/11/12 自己紹介・日本語版ページ完成<br />
-              Version:0.1.1 2020/11/06 創作したページをリストアップして<a href="https://github.com/ms3nd3r/creation">別リポジトリ</a>にまとめた<br />
+              Version:0.1.1 2020/11/06 創作したページをリストアップして別リポジトリにまとめた<br />
               Version:0.1.0 2020/07/18 indexページ更新完了<br />
               Version:0.0.3 2020/07/15 GitHubにアップロード<br />
               Version:0.0.2 2020/07/14 ページレイアウトを確定<br />

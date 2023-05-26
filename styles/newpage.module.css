@@ -1,0 +1,44 @@
+.body{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.header ul{
+    padding-left:0;
+}
+
+.header li{
+    display: inline;
+    padding: 10px;
+}
+
+.title{
+    font-size: 500%;
+    list-style-type: none;
+    display: inline;
+}
+
+.menu,.menuLink{
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 750%;
+    margin: 8% 4%;
+    width: 71%;
+    height: 71%;
+    text-align: center;
+}
+
+.main{
+    padding: 10%;
+}
+
+.link{
+    font-size: 300%;
+}
+
+.footer{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
