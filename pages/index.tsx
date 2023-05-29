@@ -3,15 +3,17 @@ import Link from 'next/link'
 import styles from '../styles/newpage.module.css'
 //上のstylesを書くとcss適用
 
+
 const Home: NextPage = () => {
+
   return (
    <article className={styles.body}>
         <header className={styles.header}>
             <ul>
                 <li className={styles.title}>ms3nd3r</li>
-                <li className={styles.menu} >About Me-工事中-</li>
-                <li className={styles.menu} >Creation-工事中-</li>
-                <li className={styles.menuLink}> <Link href="https://github.com/ms3nd3r">GitHub</Link></li>
+                <li className={styles.menu} ><Link href="/">About Me-工事中-</Link></li>
+                <li className={styles.menu} ><Link href="/">Creation-工事中-</Link></li>
+                <li className={styles.menuLink}><Link href="https://github.com/ms3nd3r">GitHub</Link></li>
                 <li className={styles.menuLink}><Link href="https://github.com/ms3nd3r">Twitter</Link></li>
             </ul>
             <p>→→scroll→→</p>
@@ -56,6 +58,9 @@ const Home: NextPage = () => {
         </footer>
     </article>  
   )
+  
 }
+
+
 
 export default Home

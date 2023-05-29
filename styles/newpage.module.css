@@ -55,6 +55,12 @@
     width: 100vw;
     height: auto;
     margin-top: -40px;
+    animation: fadeIn 3.0s ease 0.1s 1 normal;
+}
+
+@keyframes fadeIn { /*animation-nameで設定した値を書く*/
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
 }
 
 .welcomePhoto img{
@@ -75,6 +81,8 @@
     font-size: 300%;
 }
 
+/* ここからUpdateNoteの要素 */
+
 .UpdateNote{
     padding: 5% 0%;
 }
@@ -91,6 +99,21 @@
     text-align: center;
     line-height: 300%;
     letter-spacing: 7px;
+}
+
+/* ここからcreation */
+
+
+/* ここからaboutMe */
+.aboutMe p{
+    font-size: 150%;
+    font-weight: lighter;
+    line-height: 300%;
+    letter-spacing: 7px;
+}
+.aboutMe h3{
+    font-size: 300%;
+    font-weight: bold;
 }
 
 .footer{
