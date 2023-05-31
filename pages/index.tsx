@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         </header>
         <div className={styles.welcomePhoto}>
                 <img src="/img/forIndex.jpg" alt="WelcomePhoto" />
-                <p>Welcome to ms3nd3r's page</p>
+                <p>Welcome to ms3nd3r&apos;s page</p>
         </div>
         <div className={styles.main}>
                 <h1>ms3nd3rのホームページにようこそ。</h1>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
         </div>
         <footer className={styles.footer}>
             <p>
-               ms3nd3r-2023<br />
+               ms3nd3r 2023<br />
                このサイトで使用している写真はすべて私が撮影したものです。
             </p>
         </footer>

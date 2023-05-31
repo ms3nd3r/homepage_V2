@@ -90,7 +90,7 @@ const Home: NextPage = () => {
         </div>
         <footer className={styles.footer}>
           <p>
-            ms3nd3r-2023<br />
+            ms3nd3r 2023<br />
             このサイトで使用している写真はすべて私が撮影したものです。
           </p>
         </footer>
