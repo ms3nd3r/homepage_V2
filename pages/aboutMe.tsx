@@ -14,7 +14,7 @@ const Home: NextPage = () => {
                 <li className={styles.menu} ><Link href="/aboutMe">About Me</Link></li>
                 <li className={styles.menu} ><Link href="/creation">Creation</Link></li>
                 <li className={styles.menuLink}><Link href="https://github.com/ms3nd3r">GitHub</Link></li>
-                <li className={styles.menuLink}><Link href="https://github.com/ms3nd3r">Twitter</Link></li>
+                <li className={styles.menuLink}><Link href="https://twitter.com/ms3nd3r">Twitter</Link></li>
             </ul>
             <p>→→scroll→→</p>
         </header>
