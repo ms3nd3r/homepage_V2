@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.main}>
             <div className={styles.creation}>
-                <p className={styles.creation_explain}>タイトルやファイル名をクリックすることで<br />該当の制作物に遷移することができます<br />// 物によってはありません</p>
+                <p className={styles.creation_explain}>タイトルやファイル名をクリックすることで<br />該当の制作物に遷移することができます<br />◎ 物によってはありません</p>
                 <h3>成果物</h3>
                     <div className={styles.creation_body}>
                         <p>
@@ -37,8 +37,8 @@ const Home: NextPage = () => {
                         <p>
                             <Link href="https://oguzemi2.sakura.ne.jp/Emotions_meter/">- 感情を可視化して日記を書きやすくするためのアプリケーション Emotions_meter</Link><br />
                             (PHP/Laravel)<br />
-                            // ミニマムなWebアプリとしてサービス公開中<br />
-                            // 2023年下半期アップデート版公開予定
+                            ◎ ミニマムなWebアプリとしてサービス公開中<br />
+                            ◎ 2023年下半期アップデート版公開予定
                         </p>
                     </div>
                 <h3>実績</h3>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                         <p>
                             <Link href="https://manabow.com/sl/result/21/">- 第21回日経STOCKリーグ アイデア賞(専門学校史上初)</Link><br />
                             <Link href="https://manabow.com/sl/result/21/pdf/21_10.pdf">#Follow_Me～Google Trends×AIで導くアフターコロナの社会を作る有望企業～<br />
-                            // こちらをクリックするとpdfが開きます</Link><br />
+                            ◎ こちらをクリックするとpdfが開きます</Link><br />
                         </p>
                         <p>
                             - ＩＳＣプログラミングコンテスト２０２１ グランプリ<br />
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                             「謎解き×IoT」作問スタッフ
                         </p>
                     </div>
-                    <p className={styles.creation_explain}>タイトルやファイル名をクリックすることで<br />該当の制作物に遷移することができます<br />// 物によってはありません</p>
+                    <p className={styles.creation_explain}>タイトルやファイル名をクリックすることで<br />該当の制作物に遷移することができます<br />◎ 物によってはありません</p>
             </div>
         </div>
         <footer className={styles.footer}>
