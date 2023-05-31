@@ -20,6 +20,7 @@ const Home: NextPage = () => {
         </header>
         <div className={styles.welcomePhoto}>
                 <img src="/img/forCreation.png" alt="WelcomePhoto" />
+                <p>Creation</p>
         </div>
         <div className={styles.main}>
             <div className={styles.creation}>
@@ -65,7 +66,10 @@ const Home: NextPage = () => {
             </div>
         </div>
         <footer className={styles.footer}>
-          <p>ms3nd3r</p>
+            <p>
+                ms3nd3r-2023<br />
+                このサイトで使用している写真はすべて私が撮影したものです。
+            </p>
         </footer>
     </article>  
   )

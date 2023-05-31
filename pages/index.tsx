@@ -20,13 +20,14 @@ const Home: NextPage = () => {
         </header>
         <div className={styles.welcomePhoto}>
                 <img src="/img/forIndex.jpg" alt="WelcomePhoto" />
+                <p>Welcome to ms3nd3r's page</p>
         </div>
         <div className={styles.main}>
                 <h1>ms3nd3rのホームページにようこそ。</h1>
             <div className={styles.guidance}>
                 <h2>
-                    申し訳ありませんが、ただいまページのリニューアルにつき工事中です。<br />
-                    もしよければ以前のページをご覧ください。
+                    *ただいまページのリニューアルを行っています。*<br />
+                    もしよければ以前のページもご覧ください。
                 </h2> 
                 <div className={styles.link}>
                     <Link href="/oldpage"  legacyBehavior>
@@ -37,6 +38,7 @@ const Home: NextPage = () => {
             <div className={styles.UpdateNote}>
                 <h2>Update Note</h2>
                 <span> 
+                    Version:2.1.0 2023/05/30 ホームページデザイン完全リニューアル<br />
                     Version:2.0.2 2023/05/22 プロフィールを更新,リファクタリング開始<br />
                     Version:2.0.1 2023/01/09 新年にあたってプロフィールを更新<br />
                     Version:2.0.0 2022/09/12 ページをnext.js仕様にリニューアル<br />
@@ -54,7 +56,10 @@ const Home: NextPage = () => {
             </div>
         </div>
         <footer className={styles.footer}>
-          <p>ms3nd3r</p>
+            <p>
+               ms3nd3r-2023<br />
+               このサイトで使用している写真はすべて私が撮影したものです。
+            </p>
         </footer>
     </article>  
   )
