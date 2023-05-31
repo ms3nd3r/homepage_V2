@@ -10,9 +10,9 @@ const Home: NextPage = () => {
    <article className={styles.body}>
         <header className={styles.header}>
             <ul>
-                <li className={styles.title}>ms3nd3r</li>
-                <li className={styles.menu} >About Me-工事中-</li>
-                <li className={styles.menu} >Creation-工事中-</li>
+                <li className={styles.title}><Link href="/">ms3nd3r</Link></li>
+                <li className={styles.menu} ><Link href="/aboutMe">About Me</Link></li>
+                <li className={styles.menu} ><Link href="/creation">Creation</Link></li>
                 <li className={styles.menuLink}> <Link href="https://github.com/ms3nd3r">GitHub</Link></li>
                 <li className={styles.menuLink}><Link href="https://github.com/ms3nd3r">Twitter</Link></li>
             </ul>
@@ -22,17 +22,6 @@ const Home: NextPage = () => {
                 <img src="/img/forAboutMe.png" alt="WelcomePhoto" />
         </div>
         <div className={styles.main}>
-            <div className={styles.guidance}>
-                <h2>
-                    申し訳ありませんが、ただいまページのリニューアルにつき工事中です。<br />
-                    もしよければ以前のページをご覧ください。
-                </h2> 
-                <div className={styles.link}>
-                    <Link href="/oldpage"  legacyBehavior>
-                        →Enter
-                    </Link> 
-                </div>
-            </div>
             <div className={styles.aboutMe}>
                 <h3>自己紹介</h3>
                 <p>
@@ -48,53 +37,53 @@ const Home: NextPage = () => {
                 </h3>   
                 <p>
                     [Web開発]<br />
-                    経験<br />
-                    HTML/CSS<br />
-                    PHP<br />
-                    JavaScript<br />
-                    SQL<br />
-                    学習中
-                    TypeScript<br />
-                    React<br />
-                    Next.js<br />
-                    Ruby<br />
-                    Laravel<br />
+                    ##経験<br />
+                    - HTML/CSS<br />
+                    - PHP<br />
+                    - JavaScript<br />
+                    - SQL<br />
+                    ##学習中<br />
+                    - TypeScript<br />
+                    - React<br />
+                    - Next.js<br />
+                    - Ruby<br />
+                    - Laravel<br />
                     [ソフトウェア開発/スクレイピング/競技プログラミング]<br />
-                    python<br />
+                    - python<br />
                     [CTF]<br />
-                    Web<br />
-                    OSINT<br />
+                    - Web<br />
+                    - OSINT<br />
                 </p>
                 <h3>趣味</h3>
                 <p>
-                    オンラインゲーム<br />
-                    ダーツ<br />
-                    ビリヤード<br />
-                    サイクリング<br />
-                    アニメ視聴<br />
-                    音楽鑑賞<br />
-                    将棋<br />
-                    イラスト作成<br />
-                    文字書き<br />
-                    読書<br />
+                    - オンラインゲーム<br />
+                    - ダーツ<br />
+                    - ビリヤード<br />
+                    - サイクリング<br />
+                    - アニメ視聴<br />
+                    - 音楽鑑賞<br />
+                    - 将棋<br />
+                    - イラスト作成<br />
+                    - 文字書き<br />
+                    - 読書<br />
                     etc...
                 </p>
                 <h3>資格</h3>
                 <p>
-                    全商簿記三級<br />
-                    ITパスポート<br />
-                    基本情報技術者<br />
-                    情報処理検定三級<br />
-                    ビジネス文書実務検定三級<br />
-                    謎解き能力検定四級<br />
-                    普通自動車運転免許<br />
+                    ^全商簿記三級<br />
+                    ^ITパスポート<br />
+                    ^基本情報技術者<br />
+                    ^情報処理検定三級<br />
+                    ^ビジネス文書実務検定三級<br />
+                    ^謎解き能力検定四級<br />
+                    ^普通自動車運転免許<br />
                 </p>
                 <h3>LINK</h3>
                 <p>
-                    <Link href="https://twitter.com/ms3nd3r">Twitter</Link>[亀更新]<br />
-                    <Link href="https://github.com/ms3nd3r">github</Link>[わりとそこそこ更新]<br />
-                    <Link href="https://ms3nd3r.hatenablog.com/">はてなブログ</Link>[不定期]<br />
-                    <Link href="https://atcoder.jp/users/ms3nd3r">AtCoder</Link>[モチベーションの向くままに]<br />
+                    ◉<Link href="https://twitter.com/ms3nd3r">Twitter</Link>[亀更新]<br />
+                    ◉<Link href="https://github.com/ms3nd3r">github</Link>[わりとそこそこ更新]<br />
+                    ◉<Link href="https://ms3nd3r.hatenablog.com/">はてなブログ</Link>[不定期]<br />
+                    ◉<Link href="https://atcoder.jp/users/ms3nd3r">AtCoder</Link>[モチベーションの向くままに]<br />
                 </p>
             </div>
         </div>

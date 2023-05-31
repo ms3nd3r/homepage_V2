@@ -33,7 +33,7 @@ const Home: NextPage = () => {
               </Link>
             </div>
           </div>
-        <p><strong>鋭意更新中！！</strong></p>
+        <p><strong>更新終了しました。<Link href="../">新ページはここをクリック</Link></strong></p>
       </div>
       <div className={styles.update}>
           <h3>UPDATE NOTE</h3>    

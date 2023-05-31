@@ -102,6 +102,38 @@
 }
 
 /* ここからcreation */
+.creation p{
+    font-size: 150%;
+    font-weight: lighter;
+    line-height: 300%;
+    letter-spacing: 7px;
+    padding: 2% 0%;
+}
+.creation h2{
+    font-size: 450%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.creation_body p:hover{
+    background-color: rgb(205, 205, 205);
+    transition: 0.8s ;
+}
+
+.creation h3{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.creation_explain{
+    font-size: 150%;
+    font-weight: lighter;
+    line-height: 300%;
+    letter-spacing: 7px;
+    color: rgb(127, 127, 127);
+    text-align: center;
+    padding: 4%;
+}
 
 
 /* ここからaboutMe */
